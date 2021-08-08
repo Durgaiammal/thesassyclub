@@ -1,0 +1,39 @@
+.QueriesContainer {
+    width: 100%;
+    background: #fafafa;
+    padding: 2% 0px;
+}
+.Queries {
+    margin: 2% 4%;
+}
+.Answer {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+    color: #6d6d7a;
+    font-family: 'Javanese Text','Roboto', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}
+.Question {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 700 !important;
+}
+.link-section {
+    margin: 2% 4%;
+}
+.link-text {
+    color: #ff79b0;
+    margin: 0;
+}
+.link-dividor {
+    color: #6d6d7a;
+    margin: 0 2px;
+}
+.link-text-p{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

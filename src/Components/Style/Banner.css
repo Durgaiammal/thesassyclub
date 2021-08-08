@@ -1,0 +1,46 @@
+
+.Container{
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#fff,#dd8c8c);
+}
+.Row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ColTwo{
+    display: flex;
+    min-width: 300px;
+    flex-direction: column;
+}
+.ColTwo img{
+    height: 300px;
+    max-width: 100%;
+}
+.ColTwo h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+    font-family: Algerian;
+}
+p{
+    color: #555;
+    font-family: Forte;
+}
+
+.Btn{
+    display: flex;
+    flex-wrap: wrap;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    width: fit-content;
+    text-decoration: solid;
+}
+.Btn:hover{
+    background: sandybrown;
+}

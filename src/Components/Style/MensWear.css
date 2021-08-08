@@ -1,0 +1,85 @@
+.card{
+    box-shadow:inset 0px 0px 5px 0.1px rgb(177, 174, 174);
+    padding: 10px 0px;
+    margin: 10px 5px;
+    border-radius: 5px;
+}
+
+.comman-heading{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 5px 20px;
+    margin-top: 2px;
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
+
+}
+.comman-heading-left h1{
+
+ font-size: 20px;
+ font-weight: bold;
+ padding: auto;
+ font-family: Pristina;
+  
+}
+.comman-heading-left h2{
+    font-size: 15px;
+    padding: 5px 0px; 
+    color: rgb(145, 141, 138);
+  
+}
+.comman-heading-right button{
+    width:90px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rosybrown;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    font-family: Matura MT Script Capitals;
+}
+
+.comman-row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-height: 366PX;
+    margin: 10px 0px;
+  
+           
+}
+.comman-col {
+    text-align: center;
+    line-height: 22px;
+}
+
+.comman-col img{
+  width: 69px;
+  height: 150px;
+ 
+transition: 300ms;
+}
+.comman-col img:hover{
+transform: scale(0.1);
+
+}
+.comman-col h3 ,h4,h6{
+     text-transform: capitalize;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.comman-col h3{
+    margin-top: 10px;
+    font-size: 16px;
+    
+}
+.comman-col h4{
+   color: green;
+    font-size: 14px;
+    font-weight: 300;
+}
+.comman-col h6{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    font-weight: 100;
+}

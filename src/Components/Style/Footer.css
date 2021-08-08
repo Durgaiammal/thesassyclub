@@ -1,0 +1,103 @@
+html,
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    background: #3f3f47;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+.left {
+    display: flex;
+    flex: 2 1;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3% 0px;
+    margin: 10px;
+    width: 100%;
+    flex-wrap: wrap;
+    color: white;
+}
+.right {
+    display: flex;
+    flex: 3 1;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 45px 30px;
+    color: white;
+    justify-content: space-between;
+}
+.simple-font {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.12px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-icon {
+    margin: 0 8px;
+    cursor: pointer;
+}
+.title h1{
+    font-family: Edwardian Script ITC;
+    color: white;
+}
+.about {
+    font-family: Constantia;
+    color: rosybrown;
+    text-align: justify;
+    font-size: 0.9em;
+}
+.contact{
+    display: block;
+    font-size: 0.9em;
+    color: white;
+    font-family: Constantia;
+}
+.social a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    margin-top: 18px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+    color: violet;
+}
+.social a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+.link-item{
+    margin: 16px 0;
+    color: #FFFFFF;
+    font-family: Constantia;
+}
+.right h3{
+    font-family: Constantia;
+}
+.pointer a{
+    cursor: pointer;
+    color: grey;
+    text-decoration: none;
+}
+.pointer a:hover{
+    color: indianred;
+}
